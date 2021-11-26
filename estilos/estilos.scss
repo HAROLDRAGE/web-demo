@@ -1,0 +1,15 @@
+@import "variables";
+@import "mixins";
+
+body {
+    background: $color-primario ;
+}
+
+.caja1 {
+    @include miestructura;
+    font-size:3rem;
+    color: $color-segundario; 
+}
+h1{
+    color: $color-segundario;
+}
